@@ -12,6 +12,14 @@ This is a simple To-Do List application built with React. It allows users to add
 - **Toggle Completion**: Mark tasks as completed or not completed.
 - **Local Storage**: Automatically saves tasks in the browser's local storage to retain data between sessions.
 
+## Project Demo
+
+- ![Description of Screenshot](/Screenshot_01.png)
+- ![Description of Screenshot](/Screenshot_02.png)
+- ![Description of Screenshot](/Screenshot_03.png)
+
+
+
 ## Getting Started
 
 ### Prerequisites
