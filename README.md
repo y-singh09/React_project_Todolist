@@ -1,8 +1,43 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a simple To-Do List application built with React. It allows users to add, update, delete, and toggle tasks as completed or not completed. The application uses local storage to persist tasks across browser sessions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Add New Tasks**: Create new tasks with a title and description.
+- **Update Tasks**: Edit existing tasks.
+- **Delete Tasks**: Remove tasks from the list.
+- **Toggle Completion**: Mark tasks as completed or not completed.
+- **Local Storage**: Automatically saves tasks in the browser's local storage to retain data between sessions.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (which includes npm)
+
+### Installation
+ **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+```
+
+### Code Structure
+- src/: Contains the main application code.
+- components/: Includes React components like TodoForm and TodoItem.
+- contexts/: Contains the context provider for managing todo state.
+- App.jsx: The main application component.
+
+### Contributing
+If you want to contribute to this project, please follow these steps:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature/your-feature).
+- Create a new Pull Request.
