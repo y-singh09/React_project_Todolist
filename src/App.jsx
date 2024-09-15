@@ -38,9 +38,17 @@ function App() {
    },[todos])
   return (
     <TodoProvider value={{todos,addTodo,deleteTodo,updateTodo,toggleComplete}}>
-    <div className="bg-[#172842] min-h-screen py-8">
+    <div className=" min-h-screen py-8"
+      style={{
+        backgroundImage: `url('https://images.pexels.com/photos/632470/pexels-photo-632470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+        backgroundRepeat: 'no-repeat', 
+        minHeight: '100vh', 
+        padding: '2rem',
+    }}>
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
-                    <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
+                    <h1 className="text-3xl bg-gray-400 rounded-lg m-5  font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
                     <div className="mb-4">
                        <TodoForm/>
                     </div>
